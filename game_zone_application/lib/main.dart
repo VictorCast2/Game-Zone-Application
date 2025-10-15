@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
   int _currentPage = 0;
   Timer? _timer;
 
-  // 🔁 esto lo hizo el keyner el master
+  // 🔁 la duraccion del slide 4
   final Duration _autoSlideDuration = const Duration(seconds: 4);
 
   // 🎮 Lista de juegos con imágenes y descripción

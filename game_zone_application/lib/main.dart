@@ -122,137 +122,89 @@ class _HomePageState extends State<HomePage> {
   // 🎮 Lista de juegos con imágenes y descripción
   final List<Map<String, String>> _slides = [
     {
-      "image":
-          "https://i.pinimg.com/736x/2b/02/f0/2b02f09dda89cfbef21b7bc3eea90fc4.jpg",
+      "image": "assets/image/fornited.webp",
       "title": "Fortnite OG",
       "description": "Revive los momentos clásicos en la isla original.",
     },
     {
-      "image":
-          "https://i.pinimg.com/1200x/9a/2c/1c/9a2c1c428752523b0a8c6a5cb65a386e.jpg",
+      "image": "assets/image/gta-online-the-chop-shop-4m.jpg",
       "title": "GTA V",
       "description": "Explora Los Santos con total libertad.",
     },
     {
-      "image":
-          "https://i.pinimg.com/1200x/0b/ea/3b/0bea3b30b35c95412b8f9940b210bc85.jpg",
+      "image": "assets/image/resident-evil-4k-2023-3v.jpg",
       "title": "Resident Evil 4 Remake",
       "description": "Terror clásico reinventado por Capcom.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/x8VxQb6v2QhXz5U6rHtT5D.jpg",
+      "image": "assets/image/2025-red-dead-redemption-2-game-p8.jpg",
       "title": "Red Dead Redemption 2",
       "description":
           "Vive el salvaje oeste con Arthur Morgan y la banda de Van der Linde.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/XaZxqDbAzxDqDdC9yRk4jK.jpg",
+      "image": "assets/image/enigmatic-cyberpunk-2077-5s.jpg",
       "title": "Cyberpunk 2077",
       "description":
           "Explora Night City y define tu destino como V, un mercenario cibernético.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/3oXvXZs9gHZdukpYjGm6T7.jpg",
+      "image": "assets/image/hollow-knight-silksong-ax.jpg",
       "title": "Hollow Knight",
       "description":
           "Una aventura oscura y hermosa bajo tierra llena de misterio y acción.",
     },
     {
-      "image": "https://i.ytimg.com/vi/Ekx2rH5lS3Q/maxresdefault.jpg",
+      "image": "assets/image/buckshot.png",
       "title": "Buckshot Roulette",
       "description":
           "Juega a la ruleta rusa con un giro sangriento y psicológico.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/dvQEPQ9dKK5rKfQ2bf89pA.jpg",
+      "image": "assets/image/theforest.jpg",
       "title": "The Forest",
       "description":
           "Sobrevive en una isla llena de secretos, caníbales y terror psicológico.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/QACaZpA6D9gGJ3t5MPD7C5.jpg",
+      "image": "assets/image/god-of-war-ragnarok-46.jpg",
       "title": "God of War Ragnarök",
       "description":
           "Acompaña a Kratos y Atreus en su épico viaje por los reinos nórdicos.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/QFy2sRCBGp7ZtZgMufr9E5.jpg",
-      "title": "Elden Ring",
-      "description":
-          "Explora un vasto mundo abierto creado por FromSoftware y George R. R. Martin.",
-    },
-    {
-      "image": "https://cdn.mos.cms.futurecdn.net/dMCsM6m7kMGnb5Y6uq3nFL.jpg",
-      "title": "The Last of Us Part I",
-      "description":
-          "Una historia intensa de supervivencia, amor y redención en un mundo postapocalíptico.",
-    },
-    {
-      "image":
-          "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2025/01/assassins-creed-shadows-samurai-yasuke-naoe.jpg",
-      "title": "Assassin’s Creed Shadows",
-      "description":
-          "Explora el Japón feudal como samurái o ninja en esta épica entrega de Ubisoft.",
-    },
-    {
-      "image": "https://cdn.mos.cms.futurecdn.net/6f8C4s3PgH3Vp9e9u6mPTb.jpg",
+      "image": "assets/image/monster-hunter-wilds-deluxe-edition-2025-bq.jpg",
       "title": "Monster Hunter Wilds",
       "description":
           "Caza bestias colosales en un vasto mundo abierto con un ecosistema dinámico.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/ZiTwCNGV8uv2HBF7vAykGZ.jpg",
+      "image":
+          "assets/image/final-fantasy-vii-rebirth-aerith-gainsborough-and-tifa-lockhart-93.jpg",
       "title": "Final Fantasy VII Rebirth",
       "description":
           "Continúa la historia de Cloud y sus amigos en una reimaginación espectacular del clásico.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/eTpkWRPR8xQ6qRk6BFAwBT.jpg",
+      "image": "assets/image/senuas-saga-hellblade-2-4k-wy.jpg",
       "title": "Senua’s Saga: Hellblade II",
       "description":
           "Una experiencia cinematográfica con gráficos de nueva generación y narrativa intensa.",
     },
     {
-      "image":
-          "https://upload.wikimedia.org/wikipedia/en/8/8b/Silent_Hill_2_box_art.png",
+      "image": "assets/image/silent-hill-2-vy.jpg",
       "title": "Silent Hill 2",
       "description":
           "Un clásico del survival horror psicológico: historia oscura, atmósfera opresiva y uno de los mejores argumentos del género.",
     },
     {
-      "image": "https://cdn.mos.cms.futurecdn.net/a4N5BwnZSR4GvVUnZDbtKc.jpg",
-      "title": "Silent Hill F",
-      "description":
-          "Terror psicológico ambientado en el Japón de los años 60, con una atmósfera inquietante.",
-    },
-    {
-      "image": "https://cdn.mos.cms.futurecdn.net/L7vxPP7Pw6JxWwYYehkqW4.jpg",
-      "title": "Hades II",
-      "description":
-          "Controla a Melinoë y enfréntate a los dioses del inframundo en este roguelike.",
-    },
-    {
-      "image": "https://cdn.mos.cms.futurecdn.net/zvQfWv6r6M2bC6QeA3KJbF.jpg",
-      "title": "Clair Obscur: Expedition 33",
-      "description":
-          "Un RPG artístico con combates por turnos y una narrativa poética sobre el fin del mundo.",
-    },
-    {
-      "image": "https://cdn.mos.cms.futurecdn.net/b6pYpRmpc9f5Hz4bK6yT9K.jpg",
-      "title": "Kingdom Come: Deliverance 2",
-      "description":
-          "Una historia medieval realista con batallas, política y decisiones que cambian tu destino.",
-    },
-    {
-      "image":
-          "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee?auto=format&fit=crop&w=1920&q=80",
+      "image": "assets/image/valorant-game-characters-girls-jq.jpg",
       "title": "Valorant",
       "description":
           "Un shooter táctico 5v5 de Riot Games donde la precisión, las habilidades y el trabajo en equipo son la clave para la victoria.",
     },
     {
-      "image":
-          "https://images.unsplash.com/photo-1605902711622-cfb43c4437b0?auto=format&fit=crop&w=1920&q=80",
+      "image": "assets/image/call-of-duty-warzone-mobile-5k-game-yd.jpg",
       "title": "Call of Duty: Warzone",
       "description":
           "Una batalla campal intensa en un mapa enorme donde solo los más estratégicos sobreviven. Acción, disparos y adrenalina pura.",
@@ -426,9 +378,17 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _buildImageWithFallback(String imageUrl) {
-    final isImageAvailable = _imageCache[imageUrl] ?? false;
-
-    if (isImageAvailable) {
+    // Si el path empieza con 'assets/', es local
+    if (imageUrl.startsWith('assets/')) {
+      return Image.asset(
+        imageUrl,
+        fit: BoxFit.cover,
+        errorBuilder: (context, error, stackTrace) {
+          return _buildErrorWidget();
+        },
+      );
+    } else {
+      // En caso de que en el futuro uses imágenes de internet
       return Image.network(
         imageUrl,
         fit: BoxFit.cover,
@@ -440,8 +400,6 @@ class _HomePageState extends State<HomePage> {
           return _buildErrorWidget();
         },
       );
-    } else {
-      return _buildAnimatedPlaceholder();
     }
   }
 
